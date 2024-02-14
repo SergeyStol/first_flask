@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+.idea
+Scripts
+site-packages
+static
+templates
+__pycache__/
+*.iml
+pyvenv.cfg

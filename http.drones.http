@@ -1,0 +1,41 @@
+GET http://localhost:5000/
+Accept: application/json
+
+###
+
+
+GET http://localhost:5000/drones
+Accept: application/json
+
+###
+
+
+GET http://localhost:5000/drones/5
+Accept: application/json
+
+###
+
+
+DELETE http://localhost:5000/drones/2
+Accept: application/json
+
+###
+
+
+POST http://localhost:5000/drones
+Content-Type: application/json
+
+{
+  "name": "RDR07"
+}
+
+###
+
+PUT http://localhost:5000/drones/2
+Content-Type: application/json
+
+{
+  "name": "RDR33"
+}
+
+###
